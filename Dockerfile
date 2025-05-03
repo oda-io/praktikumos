@@ -1,8 +1,8 @@
 #menggunakan base image ubuntu
- FROM ubuntu:22.04
+ From ubuntu:22.04
  
  #Update dan install paket dasar
- RUN apt-get update && apt-get install -y \
+ Run apt-get update && apt-get install -y \
  bash \
  nano \
  curl \
